@@ -1,0 +1,16 @@
+#having the user enter some numbers. This is an exercise from http://www.practicepython.org/exercise/2014/04/25/12-list-ends.html
+a = input("Tell me a number ")
+b = input("Tell me another number ")
+c = input("Tell me another number ")
+d = input("Tell me another number ")
+e = input("Tell me another number ")
+
+#putting the users inputs into a list
+original_list=[str(a), str(b), str(c), str(d), str(e)]
+
+#creating a new list which consists of the first and last entries of the original list
+first_and_last_list = original_list[:1] + original_list[-1:]
+
+#printing it out so the user can see the results.
+print("Your original list was " + str(original_list))
+print("Your new list is " + str(first_and_last_list))
