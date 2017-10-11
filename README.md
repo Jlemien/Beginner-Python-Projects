@@ -1,2 +1,2 @@
 # Beginner-Python-Projects
-As of late 2017 I am just starting to learn Python 3, and here are the beginner projects that I am using to practice
+As of late 2017 I am just starting to learn Python 3, and here are the beginner projects that I am using to practice. Most of the code in this directory is related to various beginner projects. Some of these are as simple as "99 Bottles of Beer on the Wall" and some of them are a little more complex (scanning a folder on my computer for movies, searching those movies on rottentomatoes.com, and then renaming the file with the rottentomatoes score in the front of the files name so that I can easily find the "best" movies that I own). All of them are pretty small because (as of late 2017) I am very much a novice in Python.
