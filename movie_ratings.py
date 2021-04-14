@@ -14,5 +14,5 @@ def get_name_year_ext(original):
 path = r"D:\External Hard Drive Videos\Movies & Films\Testing Python"
 for root, dirs, files in os.walk(path):  # parse through file list in the current directory
     for filename in files:
-        if filename[-4:] is not ".srt": # I want to make this exclude .srt files, but it isn't working
+        if not filename.endswith('.srt'):
             print(get_name_year_ext(filename))
